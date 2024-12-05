@@ -100,3 +100,105 @@ body
     width: fit-content;
     display: flex;
 }
+/* For smaller screens like mobile phones */
+@media only screen and (max-width: 600px) {
+    .card {
+        padding: 20px;
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .search input {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather h1 {
+        font-size: 22px;
+    }
+
+    .weather img {
+        width: 120px;
+    }
+
+    .weather-details {
+        font-size: 24px;
+    }
+
+    .weather-details img {
+        width: 40px;
+    }
+}
+
+/* For tablets and medium-sized screens */
+@media only screen and (max-width: 768px) {
+    .card {
+        padding: 30px;
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .search input {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .search button {
+        width: 55px;
+        height: 55px;
+    }
+
+    .weather h1 {
+        font-size: 24px;
+    }
+
+    .weather img {
+        width: 130px;
+    }
+
+    .weather-details {
+        font-size: 26px;
+    }
+
+    .weather-details img {
+        width: 45px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .card {
+        padding: 40px;
+        width: 60%;
+        max-width: 450px;
+    }
+
+    .search input {
+        font-size: 20px;
+        padding: 10px 25px;
+    }
+
+    .search button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .weather h1 {
+        font-size: 30px;
+    }
+
+    .weather img {
+        width: 150px;
+    }
+
+    .weather-details {
+        font-size: 30px;
+    }
+
+    .weather-details img {
+        width: 50px;
+    }
+}
