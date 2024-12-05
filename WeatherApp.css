@@ -100,8 +100,8 @@ body
     width: fit-content;
     display: flex;
 }
-/* For mobile screens like Samsung M32 (max-width: 412px) */
-@media only screen and (max-width: 412px) {
+
+/* @media only screen and (max-width: 412px) {
     .card {
         padding: 15px;
         width: 90%;
@@ -138,4 +138,5 @@ body
     .error {
         font-size: 14px;
     }
-}
+} */
+
